@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="pr-br">
+	<head>
+		<script type="text/javascript" src="js/calc.js"></script>
+		<link rel="stylesheet" href="css/estilo.css">
+	</head>
+	<body>
+		<h1 align="center">Calculadora com Js</h1>
+		<table name="calc" class="calculadora">
+			<tr>
+				<th colspan="4"><input type="text" name="visor" id="visor"/></th>
+			</tr>
+
+			<tr>
+				<td><input type="button" value="(" onclick="botao(value);" class="class1"/></td>
+				<td><input type="button" value=")" onclick="botao(value);" class="class1"/></td>
+				<td><input type="button" value="%" onclick="botao(value);" class="class1"/></td>
+				<td><input type="button" value="AC" onclick="limpa(value);" class="class1"/></td>
+			</tr>
+			
+			<tr>
+				<td><input type="button" value="7" onclick="botao(value);" class="class2"/></td>
+				<td><input type="button" value="8" onclick="botao(value);" class="class2"/></td>
+				<td><input type="button" value="9" onclick="botao(value);" class="class2"/></td>
+				<td><input type="button" value="/" onclick="botao(value);" class="class1"/></td>
+			</tr>
+			
+			<tr>
+				<td><input type="button" value="4" onclick="botao(value);" class="class2"/></td>
+				<td><input type="button" value="5" onclick="botao(value);" class="class2"/></td>
+				<td><input type="button" value="6" onclick="botao(value);" class="class2"/></td>
+				<td><input type="button" value="*" onclick="botao(value);" class="class1"/></td>
+			</tr>
+
+			<tr>
+				<td><input type="button" value="1" onclick="botao(value);" class="class2"/></td>
+				<td><input type="button" value="2" onclick="botao(value);" class="class2"/></td>
+				<td><input type="button" value="3" onclick="botao(value);" class="class2"/></td>
+				<td><input type="button" value="-" onclick="botao(value);" class="class1"/></td>
+			</tr>
+			
+			<tr>
+				<td><input type="button" value="0" onclick="botao(value);" class="class2"/></td>
+				<td><input type="button" value="." onclick="botao(value);" class="class2"/></td>
+				<td><input type="button" value="=" onclick="calcula(value);" id="id1"/></td>
+				<td><input type="button" value="+" onclick="botao(value);" class="class1"/></td>
+			</tr>
+		</table>
+	</body>
+</html>
